@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "798795651440",
+    "firebase_url": "https://datamahasiswa-170c4-default-rtdb.firebaseio.com",
+    "project_id": "datamahasiswa-170c4",
+    "storage_bucket": "datamahasiswa-170c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798795651440:android:36e0a3c97bd8165cded7b5",
+        "android_client_info": {
+          "package_name": "com.example.trk_5b"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT38QDlDBL5zVZqsTI5lvCUuun_ejPZCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

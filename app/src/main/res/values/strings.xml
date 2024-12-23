@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TRK 5B</string>
+    <string name="icon" />
+    <string name="profile">Rizky Catur Risnanda</string>
+    <string name="email1">rizkycaturr@gmail.com</string>
+    <string name="Nama">Nama</string>
+    <string name="NIM">NIM</string>
+    <string name="Kelas">Kelas</string>
+    <string name="email">Email</string>
+    <string name="No.HP">No. HP</string>
+    <string name="Gender">Gender</string>
+    <string name="Birth">TTL</string>
+    <string name="status">Status</string>
+    <string name="semester">Semester</string>
+    <string name="datamhs">Data Mahasiswa</string>
+    <string name="openDrawer" />
+    <string name="closeDrawer" />
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click To Login</string>
+    <string name="click_to_register">Click To Register</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#F4FEFF</color>
+    <color name="colorPrimaryDark">#712FDA</color>
+    <color name="colorAccent">#707BAA</color>
+    <color name="colortext">#1D1736</color>
+    <color name="colorsemester">#FF1481</color>
+    <color name="colorframe">#20333D</color>
+</resources>

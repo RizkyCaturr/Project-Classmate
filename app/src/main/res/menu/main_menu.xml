@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+
+    <item
+        android:id="@+id/about_page"
+        android:icon="@drawable/icon"
+        android:title="@string/icon"
+        app:showAsAction="always" />
+</menu>
