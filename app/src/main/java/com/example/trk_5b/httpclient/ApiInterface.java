@@ -5,7 +5,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface ApiInterface {
-    @GET("mahasiswa/-OEeQeuOvLDBdjCZIeMR.json")
+    @GET("mahasiswa/-OEnCY5djEo4pAhF3B_x.json")
     Call<ResponseMahasiswa> getMahasiswa();
 }
 

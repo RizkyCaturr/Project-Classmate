@@ -74,7 +74,7 @@ public class Login extends AppCompatActivity {
                             startActivity(intent);
                             finish();
                         } else {
-                            Toast.makeText(Login.this, "Authentication failed.",
+                            Toast.makeText(Login.this, "Username/Password Salah",
                                     Toast.LENGTH_SHORT).show();
                         }
                     });
