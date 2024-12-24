@@ -6,7 +6,7 @@
 
     <item
         android:id="@+id/about_page"
-        android:icon="@drawable/icon"
+        android:icon="@drawable/iconmenu"
         android:title="@string/icon"
         app:showAsAction="always" />
 </menu>

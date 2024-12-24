@@ -17,7 +17,7 @@
     <string name="closeDrawer" />
     <string name="login">Login</string>
     <string name="password">Password</string>
-    <string name="register">Register</string>
+    <string name="register">Daftar</string>
     <string name="loginnow">Sudah Punya Akun?</string>
     <string name="regisnow">Belum Punya Akun?</string>
 </resources>

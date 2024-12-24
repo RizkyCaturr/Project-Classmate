@@ -10,58 +10,80 @@
     android:background="@drawable/bgcolor"
     tools:context=".Register">
 
-    <TextView
-        android:text="@string/register"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_marginBottom="20dp"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colortext"/>
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp">
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/email"
-            android:background="@drawable/textbox"
-            android:hint="@string/email"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:paddingStart="18dp"
-            android:paddingEnd="18dp"/>
-    </com.google.android.material.textfield.TextInputLayout>
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="@android:color/white">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp">
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/password"
-            android:background="@drawable/textbox"
-            android:hint="@string/password"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:paddingStart="18dp"
-            android:paddingEnd="18dp"/>
-    </com.google.android.material.textfield.TextInputLayout>
-    
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:visibility="gone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="8dp">
 
-    <Button
-        android:layout_marginTop="18dp"
-        android:id="@+id/btnRegister"
-        android:text="@string/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btnstyle"/>
+            <TextView
+                android:text="@string/register"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colortext" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:layout_marginBottom="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
+                    android:background="@drawable/textbox"
+                    android:hint="@string/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="18dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:layout_marginBottom="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    android:background="@drawable/textbox"
+                    android:hint="@string/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="18dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:text="@string/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnstyle"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -78,7 +100,7 @@
             android:textSize="20sp"
             android:textColor="@color/colortext"
             android:gravity="end"
-            android:layout_marginRight="5sp"/>
+            android:layout_marginRight="5sp" />
 
         <TextView
             android:id="@+id/LoginSkrng"
@@ -90,5 +112,4 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
     </LinearLayout>
-
 </LinearLayout>

@@ -83,7 +83,8 @@
             android:id="@+id/user_details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/btnstyle"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"/>
 
@@ -92,21 +93,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="About"
-            android:background="@drawable/btnstyle"/>
+            android:background="@drawable/btnstyle"
+            android:layout_marginBottom="10dp"/>
 
         <Button
             android:id="@+id/btnAbsen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Absen"
-            android:background="@drawable/btnstyle"/>
+            android:background="@drawable/btnstyle"
+            android:layout_marginBottom="10dp"/>
 
         <Button
             android:id="@+id/btnLogout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Log Out"
-            android:background="@drawable/btnstyle"/>
+            android:background="@drawable/btnstyle"
+            android:layout_marginBottom="10dp"/>
     </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
