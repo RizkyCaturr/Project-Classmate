@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private MahasiswaAdapter mahasiswaAdapter;
     private DrawerLayout drawerLayout; // DrawerLayout untuk sidebar
     private ActionBarDrawerToggle drawerToggle; // DrawerToggle untuk menampilkan hamburger icon
-    private Button btnAbout, btnAbsen, btnLogout; // Buttons inside drawer layout
+    private Button btnAbout, btnJadwal, btnLogout; // Buttons inside drawer layout
 
     FirebaseAuth auth;
     FirebaseUser user;
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Initialize buttons inside the navigation drawer
         btnAbout = findViewById(R.id.btnAbout);
-        btnAbsen = findViewById(R.id.btnAbsen);
+        btnJadwal = findViewById(R.id.btnJadwal);
         btnLogout = findViewById(R.id.btnLogout);
         textView = findViewById(R.id.user_details);
 

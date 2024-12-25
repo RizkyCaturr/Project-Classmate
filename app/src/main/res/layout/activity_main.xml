@@ -74,7 +74,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="end"
         android:orientation="vertical"
-        android:background="@android:color/white">
+        android:background="#B0FFFFFF">
 
 
         <!-- Menu untuk Sidebar -->
@@ -90,23 +90,26 @@
 
         <Button
             android:id="@+id/btnAbout"
-            android:layout_width="match_parent"
+            android:layout_width="230dp"
+            android:layout_gravity="center_horizontal"
             android:layout_height="wrap_content"
             android:text="About"
             android:background="@drawable/btnstyle"
             android:layout_marginBottom="10dp"/>
 
         <Button
-            android:id="@+id/btnAbsen"
-            android:layout_width="match_parent"
+            android:id="@+id/btnJadwal"
+            android:layout_width="230dp"
+            android:layout_gravity="center_horizontal"
             android:layout_height="wrap_content"
-            android:text="Absen"
+            android:text="Jadwal"
             android:background="@drawable/btnstyle"
             android:layout_marginBottom="10dp"/>
 
         <Button
             android:id="@+id/btnLogout"
-            android:layout_width="match_parent"
+            android:layout_width="230dp"
+            android:layout_gravity="center_horizontal"
             android:layout_height="wrap_content"
             android:text="Log Out"
             android:background="@drawable/btnstyle"
